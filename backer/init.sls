@@ -1,4 +1,3 @@
 mine_functions:
   backer_client_host_key:
-    mine_function: cmd.run
-    cmd: cat /root/.ssh/id_rsa.pub
+    cmd.run: ['cat /root/.ssh/id_rsa.pub']
